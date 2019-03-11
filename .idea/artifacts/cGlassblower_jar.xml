@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="cGlassblower:jar">
-    <output-path>$USER_HOME$/Documents/RSPeer/scripts</output-path>
-    <root id="archive" name="cGlassblower.jar">
-      <element id="module-output" name="cGlassblower" />
-    </root>
-  </artifact>
-</component>
