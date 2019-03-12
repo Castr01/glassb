@@ -33,7 +33,7 @@ public class Banking extends Task {
 
              if(!Inventory.contains("Molten glass") && Inventory.contains(item -> item.getName().equals("Empty fishbowl") || item.getName().equals("Lantern lens") || item.getName().contains("orb"))){
 
-                 Log.info("Depositing all expect Glassblowing pipe");
+                 Log.info("Depositing all except Glassblowing pipe");
                  Bank.depositAllExcept("Glassblowing pipe");
 
                  Time.sleepUntil(()-> !Inventory.contains(item -> item.getName().equals("Empty fishbowl") || item.getName().equals("Lantern lens") || item.getName().contains("orb")), 3000);
